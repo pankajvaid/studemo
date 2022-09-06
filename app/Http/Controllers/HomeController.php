@@ -24,6 +24,7 @@ class HomeController extends Controller
     public function index()
     {
         $hello = 'HEllo';
+        $hello1 = 'Ram';
         return view('home');
     }
 }
